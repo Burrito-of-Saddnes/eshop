@@ -1,0 +1,165 @@
+.Description {
+    display: flex;
+    flex-direction: column;
+    width: 67vh;
+    margin-left: 6vh;
+}
+
+.DescriptionReview {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.DescriptionReview__BestSeller {
+    left: 0%;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.DescriptionReview__Stars {
+    position: relative;
+    left: 30%;
+    margin-top: 1%;
+    width: 5%;
+    height: 3vh;
+    background-image: url(../png/star.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.DescriptionReview__Reviews{
+    position: relative;
+    margin-top: 1%;
+    left: 30%;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.DescriptionProductName {
+    position: relative;
+    top: 1%;
+    left: 0%;
+    width: 90%;
+}
+
+.DescriptionProductInfo {
+    position: relative;
+    top: 5%;
+    left: 0%; 
+}
+
+.DescriptionReview_Description {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vh;
+    left: 0%;
+}
+
+.DescriptionReview_Addictively {
+    position: relative;
+    margin-top: 1%;
+}
+
+.DescriptionProductInfo__ProductLeft {
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+    width: 30%;
+    height: 20%;
+    background: #E40000;
+    border-radius: 5px;
+}
+
+.Separator {
+    position: relative;
+    top: 12%;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background: #C4C4C4;
+}
+
+.DescriptionProductPrice {
+    position: relative;
+    top: 15%;
+    left: 0%;
+}
+
+.DescriptionProductPrice__Price {
+    display: flex;
+    flex-direction: row;
+}
+
+.DescriptionReview_NoDisc {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: line-through;
+    font-size: 2vh;
+    margin-right: 1%;
+}
+
+.DescriptionReview_Discs {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.DescriptionProductPrice_Select {
+    position: relative;
+    width: 70%;
+    height: 5vh;
+    background: #000000;
+    border-radius: 5px;
+    left: 15%;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+
+@media all and (max-width: 606px) {
+
+    .DescriptionReview {
+        display: flex;
+        width: 80%;
+        height: 15%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .DescriptionReview__Stars {
+        position: unset;
+        left: 1px;
+        margin-top: 0%;
+        width: 5%;
+        height: 3vh;
+        background-image: url(../png/star.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .DescriptionReview__Reviews{
+        position: unset;
+        margin-top: 1%;
+        left: 1px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3vh;
+    }
+
+    .DescriptionReview_Addictively{
+        width: 90%;
+    }
+}

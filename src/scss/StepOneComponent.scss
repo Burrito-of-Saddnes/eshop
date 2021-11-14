@@ -1,0 +1,75 @@
+.StepOneComponent {
+    display: flex;
+    flex-direction: row;
+    height: 65vh;
+    justify-content: center;
+}
+
+.StepOneComponent__Text {
+    align-self: center;
+    width: 40%;
+}
+
+.StepOneComponent__Picture {
+    width: 40%;
+    background-size: contain;
+    background-image: url(../png/picture_giveaway_color1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.StepOneComponent__NextStepButton {
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-top: 3%;
+    width: 60%;
+    height: 5vh;
+    background: #000000;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+@media all and (max-width: 650px) {
+    .StepOneComponent {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+        justify-content: flex-start;
+    }
+
+    .StepOneComponent__Text {
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    .StepOneComponent__Picture {
+        width: 100%;
+        height: 40vh;
+        background-size: contain;
+        background-image: url(../png/picture_giveaway_color1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .StepOneComponent__NextStepButton {
+        margin-top: 5%;
+        margin-left: 20%;
+        padding-top: 3%;
+        width: 60%;
+        height: 5vh;
+        background: #000000;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+    }
+
+    .StepsContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;        
+    }
+}

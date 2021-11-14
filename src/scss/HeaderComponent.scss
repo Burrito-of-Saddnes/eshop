@@ -1,0 +1,93 @@
+.HeaderComponent {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.HeaderComponent__Pic {
+    width: 50%;
+    height: 100%;
+    background-image: url(../png/header.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #EEEEEE;
+}
+
+.HeaderComponent__Text {
+    background: #EEEEEE;
+    width: 50%;
+    height: 100%;
+}
+
+.h1 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vh;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0;
+}
+
+.h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vh;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0;
+}
+
+.h3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 5%;
+    margin: 0;
+}
+
+@media all and (max-width: 1170px) {
+    .HeaderComponent {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: 20vh;
+    }
+    
+    .HeaderComponent__Pic {
+        width: 100%;
+        height: 100%;
+        background-image: url(../png/header.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #EEEEEE;
+    }
+    
+    .HeaderComponent__Text {
+        background: #EEEEEE;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media all and (max-width: 481px) {
+    .HeaderComponent {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: 27vh;
+    }
+}

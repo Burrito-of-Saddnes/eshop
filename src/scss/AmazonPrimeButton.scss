@@ -1,0 +1,26 @@
+.AmazonPrimeButton {
+    position: relative;
+    top: 20%;
+    left: 15%;
+    width: 70%;
+    height: 4vh;
+    background-image: url(../png/amazon_prime_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media all and (max-width: 800px) {
+    .AmazonPrimeButton {
+        position: relative;
+        margin-bottom: 10vh;
+        top: 20%;
+        left: 15%;
+        width: 70%;
+        height: 4vh;
+        background-image: url(../png/amazon_prime_logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

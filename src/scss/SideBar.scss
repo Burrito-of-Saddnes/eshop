@@ -1,0 +1,119 @@
+.SideBar {
+    position: relative;
+    left: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 10vh;
+}
+
+.SideBar__ball_border {
+    display: flex;
+    justify-content: center;
+    width: 7vh;
+    border-radius: 90px;
+    margin: 4vh 0 4vh 0;
+    height: 7vh;
+    pointer-events: none
+}
+
+
+.SideBar__ball_border_active {
+    display: flex;
+    border: 1px solid #2196F3;
+    justify-content: center;
+    width: 7vh;
+    border-radius: 90px;
+    margin: 4vh 0 4vh 0;
+    height: 7vh;
+    pointer-events: visible
+}
+
+.SideBar__ball {
+    display: flex;
+    flex-direction: column;
+    margin: 5.2vh 0 5.2vh 0;
+    justify-content: center;
+    align-self: center;
+    width: 5vh;
+    text-align: center;
+    border-radius: 90px;
+    height: 5vh;
+    color: white;
+    background: #DDDDDD;
+}
+
+.SideBar__ball_compleated {
+    display: flex;
+    flex-direction: column;
+    margin: 5.2vh 0 5.2vh 0;
+    justify-content: center;
+    align-self: center;
+    width: 5vh;
+    text-align: center;
+    border-radius: 90px;
+    height: 5vh;
+    color: white;
+    background: #2196F3;
+    pointer-events: visible
+}
+
+@media all and (max-width: 650px) {
+    .SideBar {
+        position: relative;
+        left: 0vh;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .SideBar__ball_border {
+        display: flex;
+        justify-content: center;
+        width: 7vh;
+        border-radius: 90px;
+        margin: 0 4% 0 4%;
+        height: 7vh;
+        pointer-events: none;
+    }
+
+    .SideBar__ball_border_active {
+        display: flex;
+        border: 1px solid #2196F3;
+        justify-content: center;
+        width: 7vh;
+        border-radius: 90px;
+        margin: 0 4% 0 4%;
+        height: 7vh;
+        pointer-events: visible
+    }
+    
+    .SideBar__ball {
+        display: flex;
+        flex-direction: column;
+        margin: 5.2vh 0 5.2vh 0;
+        justify-content: center;
+        align-self: center;
+        width: 5vh;
+        text-align: center;
+        border-radius: 90px;
+        height: 5vh;
+        color: white;
+        background: #DDDDDD;
+    }
+    
+    .SideBar__ball_compleated {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 5.2vh 0 5.2vh 0;
+        justify-content: center;
+        align-self: center;
+        width: 5vh;
+        text-align: center;
+        border-radius: 90px;
+        height: 5vh;
+        color: white;
+        background: #2196F3;
+        pointer-events: visible
+    }
+}
